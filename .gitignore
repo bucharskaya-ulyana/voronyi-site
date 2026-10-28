@@ -1,0 +1,6 @@
+# Службові файли WebStorm — їх не викладаємо на GitHub
+.idea/
+
+# Службові файли Windows і macOS
+Thumbs.db
+.DS_Store

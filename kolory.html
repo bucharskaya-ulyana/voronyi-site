@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Історія назв кольорів — М. Вороний</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=PT+Sans&family=PT+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== ШАПКА З МЕНЮ ===== -->
+<header class="header">
+    <div class="container">
+        <a class="logo" href="index.html">М. Вороний</a>
+        <button class="menu-button" id="menuButton">☰</button>
+        <ul class="menu" id="menu">
+            <li><a href="index.html">Вступ</a></li>
+            <li><a class="active" href="kolory.html">Історія кольорів</a></li>
+            <li><a href="biografiia.html">Біографія</a></li>
+            <li><a href="zasoby.html">Художні засоби</a></li>
+            <li><a href="virshi.html">Вірші</a></li>
+            <li><a href="vysnovok.html">Висновок</a></li>
+        </ul>
+    </div>
+</header>
+
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-label">Розділ 2.1</div>
+        <h1>З історії назв кольорів</h1>
+        <p>в українській мові та розвитку символізму</p>
+    </div>
+</section>
+
+
+<!-- ===== ЩО ТАКЕ КОЛОРИСТИКА ===== -->
+<section class="section">
+    <div class="container">
+        <div class="two-columns">
+            <div>
+                <h2>Що таке колористика</h2>
+                <p><b>Колористика</b> — наука про колір, що об'єднує знання про природу кольору,
+                   його основні характеристики, колірні контрасти, «мову» кольору,
+                   колірну культуру, символізм.</p>
+                <p>Назва <b>«колір»</b> відома ще в латинській мові (лат. <i>cŏlor</i>) з такими значеннями:</p>
+                <ol class="nice-list">
+                    <li>барва, забарвлення;</li>
+                    <li>колір обличчя, у переносному значенні — краса, окраса;</li>
+                    <li>мовне забарвлення, мовний колорит.</li>
+                </ol>
+            </div>
+            <div>
+                <img class="picture" src="images/color-wheel.svg" alt="Коло кольорів">
+                <div class="caption">Коло кольорів: великі сектори — основні кольори, середні — вторинні, малі — третинні</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section light">
+    <div class="container">
+        <h2>Кольори у XVIII столітті</h2>
+        <div class="two-columns">
+        <div>
+        <p>В українській мові XVIII століття часто вживалися загальні назви кольорів.
+           Широко використовувалося слово <b>фарба</b> (з німецької <i>Farbe</i>), від якого
+           утворилися слова <i>фарбований, офарбоване</i>, а також назви майстрів:
+           <i>фарбейник</i> (фарбувальник), <i>фарбелниця</i> (жінка, що фарбує).</p>
+        <p>Найдавнішими вважаються назви, що втратили своє первісне значення:
+           <i>білий, жовтий, зелений, сірий, чорний</i>. Вони — спільне надбання всіх
+           слов'янських мов. До давніх належать і <i>рудий, синій, червоний, голубий</i>.
+           Пізніше з'явилися назви, які легко пояснити: <i>васильковий</i> — кольору квітки
+           волошки. А масті коней дали слова <i>буланий, вороний, гнідий, зозулястий</i>.</p>
+        </div>
+        <div>
+            <img class="picture" src="images/vyshyvka.svg" alt="Український вишитий орнамент">
+            <div class="caption">Фарбовані нитки у вишивці</div>
+        </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ===== ІНТЕРАКТИВНІ КОЛЬОРИ =====
+     Кожна картка — це один колір.
+     Натискаєш на картку — з'являється пояснення (це робить js/script.js). -->
+<section class="section">
+    <div class="container">
+        <h2>Натисни на колір</h2>
+        <p>Кожен колір має свою історію та значення. Натискай на квадратики, щоб дізнатися більше.</p>
+
+        <div class="color-grid">
+
+            <div class="color-card">
+                <div class="color-swatch" style="background: #e8a3b3;"></div>
+                <div class="color-name">Рожевий</div>
+                <div class="color-hint">натисни, щоб відкрити</div>
+                <div class="color-info">Колір юності, ніжності та краси. У Вороного «рожевий цвіт»
+                    («Memento mori!») — образ прекрасної, але минущої молодості.</div>
+            </div>
+
+            <div class="color-card">
+                <div class="color-swatch" style="background: #c0392b;"></div>
+                <div class="color-name">Червоний</div>
+                <div class="color-hint">натисни, щоб відкрити</div>
+                <div class="color-info">Основний (первинний) колір — його не можна отримати змішуванням.
+                    Давня слов'янська назва. Теплий: асоціюється з вогнем. У Вороного — пристрасть,
+                    тривога, «червона заграва» революції.</div>
+            </div>
+
+            <div class="color-card">
+                <div class="color-swatch" style="background: #2e4a9e;"></div>
+                <div class="color-name">Синій</div>
+                <div class="color-hint">натисни, щоб відкрити</div>
+                <div class="color-info">Основний колір, давня назва. Холодний: асоціюється з небом і водою.
+                    У вірші «До моря» синій — колір свободи та гармонії.</div>
+            </div>
+
+            <div class="color-card">
+                <div class="color-swatch" style="background: #8fb3e0;"></div>
+                <div class="color-name">Блакитний</div>
+                <div class="color-hint">натисни, щоб відкрити</div>
+                <div class="color-info">Холодний колір неба. У Вороного — божественне, піднесене, мрія.
+                    Саме він дав назву віршу «Блакитна Панна».</div>
+            </div>
+
+            <div class="color-card">
+                <div class="color-swatch" style="background: #f2c94c;"></div>
+                <div class="color-name">Жовтий</div>
+                <div class="color-hint">натисни, щоб відкрити</div>
+                <div class="color-info">Основний теплий колір — сонце, світло, тепло.
+                    Золотистий серпанок у «Блакитній Панні» — ореол святості.</div>
+            </div>
+
+            <div class="color-card">
+                <div class="color-swatch" style="background: #4a9b5c;"></div>
+                <div class="color-name">Зелений</div>
+                <div class="color-hint">натисни, щоб відкрити</div>
+                <div class="color-info">Вторинний колір: жовтий + синій. Одна з найдавніших
+                    слов'янських назв кольору.</div>
+            </div>
+
+            <div class="color-card">
+                <div class="color-swatch" style="background: #ef8a3c;"></div>
+                <div class="color-name">Помаранчевий</div>
+                <div class="color-hint">натисни, щоб відкрити</div>
+                <div class="color-info">Вторинний колір: червоний + жовтий. Теплий, асоціюється
+                    з вогнем і сонцем.</div>
+            </div>
+
+            <div class="color-card">
+                <div class="color-swatch" style="background: #7d5ba6;"></div>
+                <div class="color-name">Фіолетовий</div>
+                <div class="color-hint">натисни, щоб відкрити</div>
+                <div class="color-info">Вторинний колір: червоний + синій. Належить до холодних кольорів.</div>
+            </div>
+
+            <div class="color-card">
+                <div class="color-swatch" style="background: #ffffff;"></div>
+                <div class="color-name">Білий</div>
+                <div class="color-hint">натисни, щоб відкрити</div>
+                <div class="color-info">Ахроматичний колір, давня праслов'янська назва.
+                    У «Зоряному небі» — «білий килим» снігу, колір холоду й застиглості.</div>
+            </div>
+
+            <div class="color-card">
+                <div class="color-swatch" style="background: #1c1c22;"></div>
+                <div class="color-name">Чорний</div>
+                <div class="color-hint">натисни, щоб відкрити</div>
+                <div class="color-info">Ахроматичний колір. У Вороного — ніч, траур, загроза:
+                    «чорна пляма» комина, «чорна сильвета» інфанти.</div>
+            </div>
+
+            <div class="color-card">
+                <div class="color-swatch" style="background: #9c9a9f;"></div>
+                <div class="color-name">Сірий, попелястий</div>
+                <div class="color-hint">натисни, щоб відкрити</div>
+                <div class="color-info">Ахроматичний колір. У Вороного — смуток, межа між світами:
+                    «попелясті хмари», «попелястий жаль».</div>
+            </div>
+
+            <div class="color-card">
+                <div class="color-swatch" style="background: #4f6fc4;"></div>
+                <div class="color-name">Васильковий</div>
+                <div class="color-hint">натисни, щоб відкрити</div>
+                <div class="color-info">Назва, яку легко пояснити: кольору квітки василька (волошки).
+                    У «Блакитній Панні» — «блавати», тобто волошки.</div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ===== РОЗВИТОК СИМВОЛІЗМУ ===== -->
+<section class="section light">
+    <div class="container">
+        <h2>Що таке символізм</h2>
+        <div class="quote"><b>Символізм</b> (фр. — знак, прикмета, ознака) — літературний напрям модернізму
+кінця XIX — початку XX ст., основною рисою якого є те, що конкретний художній образ
+перетворюється на багатозначний символ.</div>
+
+        <p>Символізм зароджується у Франції у ІІ половині ХІХ століття. З 1880 року
+           С. Малларме збирав у своєму літературному салоні молодих французьких поетів.</p>
+
+        <h3>Три етапи українського символізму</h3>
+        <div class="cards">
+            <div class="card">
+                <h3>І етап</h3>
+                <p><b>Передсимволізм</b> (до 1917 р.): М. Вороний, О. Олесь,
+                   Г. Чупринка, П. Карманський, М. Філянський.</p>
+            </div>
+            <div class="card">
+                <h3>ІІ етап</h3>
+                <p>Львівське угруповання <b>«Молода муза»</b> (1906–1909):
+                   В. Пачовський, Б. Лепкий, М. Яцків та інші.</p>
+            </div>
+            <div class="card">
+                <h3>ІІІ етап</h3>
+                <p>Журнал <b>«Українська хата»</b>, що виходив у Києві у 1909–1914 рр.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container">
+        <h2>Ознаки українського символізму</h2>
+        <ul class="nice-list">
+            <li><b>Заміна образу символом</b> — натяк, знак замість прямого опису.</li>
+            <li><b>«Двосвіття»</b> — реальний світ і прагнення до вищого, іншого світу.</li>
+            <li><b>Музичність та звукопис</b> — увага до кольору, ритму, алітерацій.</li>
+            <li><b>Сугестія (навіювання)</b> — створення настрою, асоціацій.</li>
+            <li><b>Естетство та культ краси</b> — краса як вища цінність.</li>
+            <li><b>Індивідуалізм</b> — заглиблення у внутрішній світ людини.</li>
+            <li><b>Поєднання з національним змістом</b> — збереження національної своєрідності.</li>
+        </ul>
+
+        <div class="page-nav">
+            <a href="index.html">← Вступ</a>
+            <a href="biografiia.html">Далі: Біографія →</a>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="container">
+        Бучарська Уляна, 10-А клас · Науковий керівник: Замкова-Чорна Г. Г. · Дніпро, 2026
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
